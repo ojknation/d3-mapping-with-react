@@ -10,7 +10,7 @@ export const useMapTools = function () {
 
   // only fetch map data once and create a tooltip
   useEffect(() => {
-    d3.json("https://xihai01.github.io/friendly-journey/map_data.geojson")
+    d3.json("https://ojknation.github.io/nigeria-geoJson/statesGeoJSON.json")
       .then((data) => {
         setMapData((prevState) => {
           return { ...prevState, data: data, loading: false };

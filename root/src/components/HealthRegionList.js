@@ -27,7 +27,7 @@ export default function HealthRegionList(props) {
 
     return (
       <>
-        <h1>Ontario's 34 Public Health Regions</h1>
+        <h1>Nigerian map</h1>
         <svg className="map-canvas">
           <g>{healthRegions}</g>
         </svg>
